@@ -5,8 +5,8 @@ from keep_alive import keep_alive
 
 client=commands.Bot(command_prefix=':', self_bot=True, help_command=None)
 
-GUILD_ID = YOUR_SERVER_ID_HERE
-CHANNEL_ID = YOUR_CHANNEL_ID_HERE
+GUILD_ID = 558965686236348447
+CHANNEL_ID = 770218206953472041
 
 @client.event
 async def on_ready():
